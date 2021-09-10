@@ -1,0 +1,29 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.vertical-line {
+    position: relative;
+    left: 25%;
+    width: 1px;
+    height: 45%;
+    border-right: 1px solid #bababa
+}
+
+.horizontal-line {
+    width: 50%;
+    height: 1px;
+    border-top: 1px solid #bababa
+}
+
+
+  
